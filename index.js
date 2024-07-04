@@ -5,9 +5,9 @@ const apiKey = "22009312ab4cf25e30e4517f7ead7090";
 
 let cityDisplayStyle = ["text-[35px]", "font-bold"];
 let tempDisplayStyle = ["text-[35px]"];
-let humidityDisplayStyle = ["font-bold"];
+let humidityDisplayStyle = ["font-bold", "text-gray-600"];
 let cloudDisplayStyle = ["font-bold", "text-[18px]"];
-let emojiDisplayStyle = ["text-[7rem]"];
+let emojiDisplayStyle = ["text-[7rem]", "text-gray-700"];
 
 
 weatherForm.addEventListener("submit", async (event) => {
