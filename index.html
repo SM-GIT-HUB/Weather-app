@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-[Arial] bg-gray-100 flex flex-col items-center mt-[45px]">
+    
+    <form id="weatherForm" class="m-[20px] font-bold flex flex-col items-center md:flex-row">
+        <input id="cityInput" type="text" placeholder="Enter city" class="p-[10px] text-[1.2rem] border-[2px] border-gray-400 rounded-[7px] m-[10px]">
+        <button type="submit" class="px-[10px] h-[50px] text-white bg-green-600 text-[20px] rounded-[7px] hover:bg-green-700 w-[]">Get Weather</button>
+    </form>
+
+    <div id="card" class="bg-gradient-to-r from-blue-300 to-cyan-200 shadow-2xl rounded-[7px] min-w-[300px] flex flex-col items-center p-[15px] gap-[5px]">
+        <h1 class="text-[35px] font-bold">Kandi</h1>
+        <p class="text-[35px]">90&#0176</p>
+        <p class="font-bold text-gray-600">Humidity: 75%</p>
+        <p class="text-[7rem]">☀️</p>
+        <p class="font-bold text-[18px] text-gray-700">Clear Sky</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
